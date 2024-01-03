@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+
+}
+.logg{
+    width: 1520px;
+    height: 50px;
+    background: red;
+   
+}
+.conta a{
+    margin-left: 130px;
+    float: left;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    animation: animatebg 5s linear infinite;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes animatebg {
+    0%{
+        color: white;
+    }
+    50%{
+        color: chartreuse;
+    }
+    100%{
+        color: aliceblue;
+    }
+}
+.hear{
+    margin-left: 1300px;
+    padding-top: 10px;
+    
+}
+.nn{
+    color: white;
+   
+    font-size: 50px;
+    margin-top: -20px;
+}
+.na1:hover{
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+.na2:hover{
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+
+.hear ul{
+    display: flex;
+    margin-left: -240px;
+   
+
+}
+.hear li{
+    padding-left: 70px;
+    list-style: none;
+}
+.hear a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    
+}
+.head{
+    width: 1520px;
+    height: 100px;
+    background: linear-gradient(25deg,  white 35%,  red 35%);
+    position: sticky;
+    top: 0%;
+    z-index: 100;
+}
+.tit img{
+width: 80px;
+height: 50px;
+margin-left: 100px;
+margin-top: 30px;
+float: left;
+}
+.sn{
+    margin-top: 20px;
+    float: left;
+    margin-left: 10px;
+    font-size: 50px;
+    
+}
+.sn a{
+    text-decoration: none;
+    color: rgb(40, 37, 37);
+}
+.menu{
+    float: left;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.menu li{
+    list-style: none;
+    padding-left: 100px;
+
+}
+.menu a::before{
+    content: '';
+    height: 2px;
+    width: 0;
+    background: lightyellow;
+    display: block;
+    transition: 0.5s;
+    float: right;
+    margin-top: -5px;
+   
+    
+    
+
+}
+.menu a:hover::before{
+    width: 100%;
+}
+.menu a::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: lightyellow;
+    display: block;
+    transition: 0.5s;
+    margin-top: 5px;
+    
+    
+
+}
+.menu a:hover::after{
+    width: 100%;
+}
+.menu ul{
+    display: flex;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+.menu2 ul{
+    display: flex;
+    margin-top: -25px;
+    float: left;
+    margin-left: 1310px;
+
+
+}
+.menu2 li{
+    list-style: none;
+    padding-left: 5px;
+}
+.menu2 a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 25px;
+}
+.nn{
+    color: white;
+   
+    font-size: 50px;
+    margin-top: -20px;
+}
+.sad{
+    height: 900px;
+    width: 1520px;
+    
+}
+.sad1 img{
+    margin-left: 60px;
+    margin-top: 200px;
+    float: left;
+}
+.sad2{
+    margin-left: 1100px;
+    margin-top: -600px;
+    float: left;
+    font-size: 25px;
+}
+.sad3{
+    margin-left: -400px;
+    margin-top: 10px;
+    text-align: justify;
+    position: relative;
+    right: 120px;
+}
+.footer{
+    height: 500px;
+    width: 1520px;
+    background-color: rgb(31, 30, 30);
+}
+.ifra{
+    float: left;
+}
+.addd{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    
+}
+address{
+    margin-top: 50px;
+    font-size: 20px;
+}
+.iccc{
+    margin-left: 300px;
+    margin-top: 50px;
+    float: left;
+}
+.iccc li{
+    list-style: none;
+    padding-left: 60px;
+    
+    
+    
+}
+.iccc ul{
+    display: flex;
+    
+}
+.iccc a{
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+   border: 2px solid;
+    padding: 10px;
+    border-radius: 50%;
+}
+a:hover{
+    color: skyblue;
+}
+.sidebar{
+    position: fixed;
+    top: 150px;
+    right: -250px;
+    width: 250px;
+    height: 400px;
+    background: #042331;
+    transition: all .5s;
+
+}
+.sidebar header{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background: #063146;
+    user-select: none;
+
+}
+.sidebar ul a{
+    display: block;
+   
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid red;
+    border-bottom: 1px solid pink;
+    transition: .4s;
+}
+ .sidebar ul li:hover a{
+    padding-left: 50px;
+}
+.sidebar ul a i{
+    margin-right: 16px;
+}
+#check{
+    display: none;
+}
+label #btn, label #cancel{
+    position: absolute;
+    cursor: pointer;
+    background: #042331;
+    border-radius: 3px;
+
+}
+label #btn{
+    right: 40px;
+    top: 40px;
+    font-size: 35px;
+    color: white;
+    padding: 6px 12px;
+    transition: all .5s;
+    z-index: 3000;
+}
+label #cancel{
+    z-index: 1111;
+   right: 40px;
+    top: 120px;
+    font-size: 30px;
+    color: #0a5275;
+    padding: 4px 9px;
+    transition: all .5s;
+    opacity: 0;
+    
+}
+#check:checked ~ .sidebar{
+    right: 0;
+}
+
+#check:checked ~ label #cancel{
+    right: 195px;
+    opacity: 3;
+    
+    
+
+}
+.searchh{
+    height: 30px;
+    display: flex;
+    cursor: pointer;
+    padding: 10px;
+    background:white;
+    border-radius: 30px;
+    align-items: center;
+    float: left;
+    margin-left: 30px;
+    margin-top: 35px;
+}
+.searchh:hover input{
+    width: 100px;
+}
+.searchh input{
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 200;
+    transition: 0.8s;
+    background: transparent;
+
+}
+.searchh a .fa{
+    color: green;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
